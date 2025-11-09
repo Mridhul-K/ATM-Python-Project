@@ -1,4 +1,5 @@
 import random
+import sys
 dic = {}
 
 def forget(j):
@@ -172,3 +173,4 @@ while True:
             print("Invalid input try again")
     if nac=='exit':
         break
+

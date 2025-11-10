@@ -64,7 +64,7 @@ def register():
             if b == dic[j][1]:
                 print("Successfully logged in")
                 print("Welcome",dic[j][0] )
-                return un
+                return j
         
             elif b == "forgot password":
                 while True:
@@ -173,4 +173,3 @@ while True:
             print("Invalid input try again")
     if nac=='exit':
         break
-
